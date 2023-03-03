@@ -124,3 +124,14 @@ $(window).scroll(function () {
     if ($(window).scrollTop() > 250) $("body").stop().fadeOut();
     else $("body").stop().fadeIn();
 });
+
+
+const m111 = document.getElementById("m122");
+
+let m22 = function(){
+    m111.classList.add("m1b");
+}
+
+let m32 = function(){
+    m111.classList.remove("m1b");
+}

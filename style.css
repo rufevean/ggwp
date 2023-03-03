@@ -117,7 +117,7 @@ a {
     animation-delay: 0ms;
     overflow-x: hidden;
     height: 100vh;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     background-image: url("https://www.linkpicture.com/q/p118.png");
 }
 
@@ -130,7 +130,7 @@ a {
     animation-delay: 0ms;
     overflow-x: hidden;
     height: 100vh;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 
@@ -488,5 +488,81 @@ a {
     margin-left: -1%;
     margin-top: 55%;
     position: absolute;
-    background:linear-gradient(#210011 3% ,#FF451C 99%);
+    background:linear-gradient(#210011 3% ,#72210e 99%);
+}
+
+.aboutme11{
+    font-size: 8vmin;
+    color:aliceblue;
+    margin-top: 5%;
+    margin-left: 15%;
+    font-family: 'Amatic SC';
+}
+
+.hr11{
+    width: 70%;
+    border-color: aliceblue;
+    border-width: 1px;
+    display: block;
+}
+
+.aboutme22{
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'Amatic SC';
+    margin-left: 15%;
+    margin-right: 45%;
+    margin-top: 3%;
+    align-items: right;
+
+}
+
+.resume1{
+    color: aliceblue;
+    font-size: 30px;
+    font-family:'Amatic SC' ;
+    margin-left: 15%;
+    margin-top: 2%;
+    /* text-decoration: underline ; */
+    margin-right: 80%;
+}
+
+.resume1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.picop{
+    width: 280px;
+    height:300px;
+    margin-left: 65%;
+    margin-top: -17%;
+    display: flex;
+
+}
+
+@media (min-width:1700px){
+    .picop{
+        margin-top: -20%;
+        width: 350px;
+        height: 380px;
+    }
+    .aboutme22{
+        font-size: 45px;
+
+    }
+}
+
+.p1{
+    display: inline-block;
+}
+
+.p1:hover{
+    cursor: pointer;
+    color: #ff4e26;
+}
+
+.m1b{
+    background-color: black !important ;
+    /* background-image: url("https://www.linkpicture.com/q/313123131.jpg"); */
 }
