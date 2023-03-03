@@ -49,15 +49,15 @@ body {
 }
 
 .work {
-    margin-top: 29%;
-}
-
-.about {
     margin-top: 19%;
 }
 
+.about {
+    margin-top: 29%;
+}
+
 .info {
-    margin-top: 39;
+    margin-top: 39%;
 }
 
 a {
