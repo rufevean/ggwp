@@ -128,11 +128,11 @@ $(window).scroll(function () {
 
 const m111 = document.getElementById("m122");
 
-let m22 = function(){
+function m22(){
     m111.classList.add("m1b");
 }
 
-let m32 = function(){
+function m32(){
     m111.classList.remove("m1b");
 }
 
