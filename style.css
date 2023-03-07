@@ -488,6 +488,7 @@ a {
     margin-left: -1%;
     margin-top: 55%;
     position: absolute;
+    z-index: 1;
     background:linear-gradient(#210011 3% ,#72210e 99%);
 }
 
@@ -508,10 +509,10 @@ a {
 
 .aboutme22{
     color: aliceblue;
-    font-size: 35px;
+    font-size: 45px;
     font-family: 'Amatic SC';
     margin-left: 15%;
-    margin-right: 45%;
+    margin-right: 15%;
     margin-top: 3%;
     align-items: right;
 
@@ -563,7 +564,44 @@ a {
 }
 
 .m1b{
-    /* background-color: black !important ;
-    color : black; */
-    background-image: url("https://www.linkpicture.com/q/313123131.jpg");
+    background-image:url("https://www.linkpicture.com/q/313131313131231231.jpg" );
+    /* background-size: 111%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: fade1;
+    animation-duration: 500ms;
+}
+
+@keyframes fade1{
+   0%{
+    opacity: 100%;
+    background-image:url("https://www.linkpicture.com/q/313131313131231231.jpg" );
+   }
+
+   30%{
+    opacity: 100%;
+    background-image:url("https://www.linkpicture.com/q/313131313131231231.jpg" );
+   }
+
+   66%{
+    opacity: 100%;
+    background-image:url("https://www.linkpicture.com/q/313131313131231231.jpg" );
+   }
+
+   100%{
+    opacity: 100%;
+    background-image:url("https://www.linkpicture.com/q/313131313131231231.jpg" );
+   }
+}
+
+.d1b{
+    background-image: url("https://www.linkpicture.com/q/0ecdec4a3c9fd2e87172bf92c21af80e-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s1b{
+    background-image: url("https://www.linkpicture.com/q/mountain-sunset-40gdcqdwvo1j9il2-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
