@@ -120,13 +120,13 @@ toggle.addEventListener("input", (t) => {
     }
 });
 
-$(window).scroll(function () {
-    if ($(window).scrollTop() > 250) $("body").stop().fadeOut();
-    else $("body").stop().fadeIn();
-});
+// $(window).scroll(function () {
+//     if ($(window).scrollTop() > 250) $("body").stop().fadeOut();
+//     else $("body").stop().fadeIn();
+// });
 
 
-const m111 = document.getElementById("m122");
+let m111 = document.getElementById("m122");
 
 function m22(){
     m111.classList.add("m1b");
