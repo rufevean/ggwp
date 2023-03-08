@@ -120,13 +120,7 @@ toggle.addEventListener("input", (t) => {
     }
 });
 
-// $(window).scroll(function () {
-//     if ($(window).scrollTop() > 250) $("body").stop().fadeOut();
-//     else $("body").stop().fadeIn();
-// });
 
-
-// let m111 = document.getElementById("m122");
 let m112 = document.getElementById("m123")
 
 function m22(){
