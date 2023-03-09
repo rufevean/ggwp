@@ -19,13 +19,36 @@ body {
 
     overflow-x: hidden;
 }
+.fake{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('https://www.linkpicture.com/q/655338c996b7fc0b1c0a7e8df5c29c7d.jpg'), url("https://www.linkpicture.com/q/100-50-15.png");
+    background-position: top;
+    z-index: 1;
+    height: 103%;
+    width: 103%;
+    margin-top: -3%;
+    margin-left: -3%;
+    position: absolute;
+    background-size: cover;
+    
+    
+}
+.nav{
+    z-index:2;
+}
+
+body{
+    background-color: #270015;
+    background-image: url("https://www.linkpicture.com/q/100-50-15.png");
+    background-size: auto;
+    background-repeat: repeat;
+}
 
 .navdc {
     font-size: 6vmin;
     font-family: 'Amatic SC';
     color: #270015;
     text-decoration: none;
-
+    z-index:2;
     margin-top: 3%;
     margin-left: 5%;
     position: absolute;
@@ -42,6 +65,7 @@ body {
     text-decoration: none;
     position: absolute;
     margin-left: 10%;
+    z-index:2;
 }
 
 .home {
@@ -80,17 +104,20 @@ a {
 .aboutmein1 {
     width: 20px;
     margin-right: 5%;
+    z-index:2;
 }
 
 .aboutmein2 {
     width: 30px;
     margin-right: 5%;
+    z-index:2;
 
 }
 
 .aboutmein3 {
     width: 45px;
     margin-right: 5%;
+    z-index:2;
 
 }
 
@@ -101,6 +128,7 @@ a {
     right: 5%;
     width: 60px;
     cursor: pointer;
+    z-index:2;
 }
 
 #toggle {
@@ -119,6 +147,7 @@ a {
     height: 100vh;
     /* overflow-y: hidden; */
     background-image: url("https://www.linkpicture.com/q/p118.png");
+    z-index:2;
 }
 
 .transition1 {
@@ -145,6 +174,7 @@ a {
     animation-name: rotate1;
     animation-delay: 0ms;
     animation-duration: 500ms;
+    z-index:2;
 
 }
 
@@ -334,6 +364,7 @@ a {
     margin-top: 21%;
     margin-left: 24%;
     position: absolute;
+    z-index:2;
     color: #fafafa;
 }
 
@@ -343,6 +374,7 @@ a {
     margin-top: 20%;
     margin-left: 36%;
     position: absolute;
+    z-index:2;
     color: aliceblue;
 }
 
@@ -351,6 +383,7 @@ a {
     font-size: 7vmin;
     margin-top: 28%;
     margin-left: 33%;
+    z-index:2;
     position: absolute;
     color: aliceblue;
 }
@@ -418,6 +451,7 @@ a {
     position: absolute;
     margin-left: 73%;
     margin-top: 45%;
+    z-index:2;
 }
 
 .fa-brands:hover {
@@ -467,7 +501,7 @@ a {
     margin-left: -1%;
     margin-top: 55%;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     /* background: linear-gradient(to bottom ,#270015 ,#ff4e26);
      */
     background-color: #270015;
@@ -508,7 +542,7 @@ a {
     font-size: 30px;
     font-family: 'Amatic SC';
     margin-left: calc(44% + 8px);
-    margin-top: -3%;
+    margin-top: 3%;
     /* text-decoration: underline ; */
     margin-right: calc(41% + 7px);
     position: absolute;
