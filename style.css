@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('https://www.linkpicture.com/q/655338c996b7fc0b1c0a7e8df5c29c7d.jpg'),url("https://www.linkpicture.com/q/100-50-15.png");
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('https://www.linkpicture.com/q/655338c996b7fc0b1c0a7e8df5c29c7d.jpg'), url("https://www.linkpicture.com/q/100-50-15.png");
     background-position: top;
     background-size: cover;
     transition: all ease-in-out 0.3s;
@@ -398,6 +398,7 @@ a {
     margin-left: 45%;
     z-index: 2;
 }
+
 /* .scrollhr{
     transform: rotate(90deg);
 } */
@@ -461,7 +462,7 @@ a {
 }
 
 .m1a {
-    height: auto%;
+    height: auto;
     width: 103%;
     margin-left: -1%;
     margin-top: 55%;
@@ -475,79 +476,82 @@ a {
     background-repeat: repeat;
 }
 
-.aboutme11{
+.aboutme11 {
     font-size: 8vmin;
-    color:aliceblue;
-    margin-top: 5%;
-    margin-left: 15%;
+    color: aliceblue;
+    margin-top: 12%;
+    margin-left: 12%;
     font-family: 'Amatic SC';
+    
 }
 
-.hr11{
+.hr11 {
     width: 70%;
     border-color: aliceblue;
     border-width: 1px;
     display: block;
 }
 
-.aboutme22{
+.aboutme22 {
     color: aliceblue;
-    font-size: 45px;
+    font-size: 30px;
     font-family: 'Amatic SC';
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 12%;
+    margin-right: 60%;
     margin-top: 3%;
     align-items: right;
 
 }
 
-.resume1{
+.resume1 {
     color: aliceblue;
     font-size: 30px;
-    font-family:'Amatic SC' ;
-    margin-left: 15%;
-    margin-top: 2%;
+    font-family: 'Amatic SC';
+    margin-left: calc(44% + 8px);
+    margin-top: -3%;
     /* text-decoration: underline ; */
-    margin-right: 80%;
+    margin-right: calc(41% + 7px);
+    position: absolute;
 }
 
-.resume1:hover{
+.resume1:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-.picop{
+.picop {
     width: 280px;
-    height:300px;
+    height: 300px;
     margin-left: 65%;
     margin-top: -17%;
     display: flex;
 
 }
 
-@media (min-width:1700px){
-    .picop{
+@media (min-width:1700px) {
+    .picop {
         margin-top: -20%;
         width: 350px;
         height: 380px;
     }
-    .aboutme22{
+
+    .aboutme22 {
         font-size: 45px;
 
     }
 }
 
-.p1{
+.p1 {
     display: inline-block;
 }
 
-.p1:hover{
+.p1:hover {
     cursor: pointer;
     color: #ff4e26;
 }
 
-.m1b{
-    background-image:url("https://www.linkpicture.com/q/313131313131231231.jpg" );
+.m1b {
+    background-image: url("https://www.linkpicture.com/q/313131313131231231.jpg");
     /* background-size: 111%; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -555,40 +559,41 @@ a {
     animation-duration: 500ms;
 }
 
-@keyframes fade1{
-   0%{
-    opacity: 100%;
-    background-image:url("https://www.linkpicture.com/q/313131313131231231.jpg" );
-   }
+@keyframes fade1 {
+    0% {
+        opacity: 100%;
+        background-image: url("https://www.linkpicture.com/q/313131313131231231.jpg");
+    }
 
-   30%{
-    opacity: 100%;
-    background-image:url("https://www.linkpicture.com/q/313131313131231231.jpg" );
-   }
+    30% {
+        opacity: 100%;
+        background-image: url("https://www.linkpicture.com/q/313131313131231231.jpg");
+    }
 
-   66%{
-    opacity: 100%;
-    background-image:url("https://www.linkpicture.com/q/313131313131231231.jpg" );
-   }
+    66% {
+        opacity: 100%;
+        background-image: url("https://www.linkpicture.com/q/313131313131231231.jpg");
+    }
 
-   100%{
-    opacity: 100%;
-    background-image:url("https://www.linkpicture.com/q/313131313131231231.jpg" );
-   }
+    100% {
+        opacity: 100%;
+        background-image: url("https://www.linkpicture.com/q/313131313131231231.jpg");
+    }
 }
 
-.d1b{
+.d1b {
     background-image: url("https://www.linkpicture.com/q/0ecdec4a3c9fd2e87172bf92c21af80e-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.s1b{
+.s1b {
     background-image: url("https://www.linkpicture.com/q/mountain-sunset-40gdcqdwvo1j9il2-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.scrollhr{
+
+.scrollhr {
     transform: rotate(90deg);
     width: 200px;
     color: #fafafa;
@@ -596,52 +601,59 @@ a {
     margin-top: calc(52%);
     margin-left: calc(40% + 6px);
     z-index: 3;
+    border :solid 1px #ffffff;
+    opacity: 50%;
 
 }
 
-.qh{
+.qh {
     position: absolute;
     z-index: 2;
     margin-top: 4%;
     margin-left: 43%;
-    color:white;
+    color: white;
     font-family: 'Amatic SC';
     font-size: 3vmin;
 }
-.aboutme11{
+
+.aboutme11 {
     position: relative;
 }
-.qhr{
+
+.qhr {
     transform: rotate(90deg);
-    color:#ffffff;
-    width: 200px;
-    margin-top: 13%;
-    margin-left: calc(40% + 4px);
+    color: #ffffff;
+    width: 150px;
+    margin-top: 11%;
+    margin-left: calc(42% - 6px);
 }
-.mq{
-    color:white;
+
+.mq {
+    color: white;
     font-size: 4vmin;
-    font-family: 'Amatic SC'; 
-    margin-top: 7%;
+    font-family: 'Amatic SC';
+    margin-top: 9%;
     margin-left: 30%;
 
 }
 
-.aq{
+.aq {
     font-family: monospace;
     font-size: 2vmin;
     color: whitesmoke;
-    margin-top:1% ;
+    margin-top: 1%;
     margin-left: 65%;
 }
-.qhr2{
+
+.qhr2 {
     transform: rotate(90deg);
-    color:#ffffff;
+    color: #ffffff;
     width: 200px;
-    margin-top: 5%;
+    margin-top: calc(7% + 25px);
     margin-left: calc(40% + 4px);
 }
-.fa-quote-left{
+
+.fa-quote-left {
     color: #fafafa;
     font-size: 15vmin;
     margin-left: 15%;
@@ -650,11 +662,99 @@ a {
     opacity: 50%;
 }
 
-.fa-quote-right{
+.fa-quote-right {
     color: #fafafa;
     font-size: 15vmin;
     margin-left: 80%;
     margin-top: -3%;
     position: absolute;
     opacity: 50%;
+}
+
+.box1{
+    height: 30px;
+    width: 140px;
+    border: solid 2px #ffffff;
+    border-radius: 0px 0px 0px 150px ;
+    border-color: transparent transparent #fff #fff;
+    margin-top: calc(3% + 16px);
+    margin-left: calc(46% + 2px);
+    position:  absolute;
+    opacity: 50%;
+}
+
+.box11{
+    height: 30px;
+    width: 50px;
+    border: solid 2px #ffffff;
+    border-radius: 0px 150px 0px 0px ;
+    position: absolute;
+    margin-top: calc(4% + 28px);
+    margin-left: calc(53% + 25px);
+    opacity: 50%;
+    border-color: #fafafa #fff transparent transparent;
+}
+
+.box2{
+    height: 30px;
+    width: 50px;
+    border: solid 2px #ffffff;
+    border-radius: 0px 0px 0px 150px ;
+    position: absolute;
+    margin-top: calc(0% + 19px);
+    margin-left: calc(37% + 5px);
+    border-color:transparent transparent #fff #fff;
+    opacity: 50%;
+}
+
+.box22{
+    height: 30px;
+    width: 100px;
+    border: solid 2px #ffffff;
+    border-radius: 0px 150px 0px 0px ;
+    position: absolute;
+    margin-top: calc(0% + 47px);
+    margin-left: calc(40% + 4px);
+    border-color: #fff #fff transparent transparent;
+    opacity: 50%;
+}
+
+.qhr{
+    opacity: 50%;
+}
+
+.qhr2{
+    opacity: 50%;
+}
+
+.box3{
+    height: 30px;
+    width: 400px;
+    border: solid 2px #ffffff;
+    border-radius: 0px 0px 150px 0px ;
+    position: absolute;
+    margin-top: calc(5% + 7px);
+    margin-left: calc(22% + 0px);
+    border-color: transparent #fff #fff transparent;
+    opacity: 50%;
+}
+.box33{
+    height: 40px;
+    width: 80px;
+    border: solid 2px #ffffff;
+    border-radius: 150px 0px 0px 0px ;
+    position: absolute;
+    margin-top: calc(7% + 2px);
+    margin-left: calc(17% + 5px);
+    border-color:  #fff  transparent transparent #fff;
+    opacity: 50%;
+}
+.rowmid{
+    transform: rotate(90deg);
+    color: white;
+    opacity: 50%;
+    width: 300px;
+    margin-left: calc(37% + 5px);
+    position: absolute;
+    margin-top: -13%;
 }
