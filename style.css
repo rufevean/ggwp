@@ -23,7 +23,7 @@ body {
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('https://www.linkpicture.com/q/655338c996b7fc0b1c0a7e8df5c29c7d.jpg'), url("https://www.linkpicture.com/q/100-50-15.png");
     background-position: top;
     z-index: 1;
-    height: 103%;
+    height: 110%;
     width: 103%;
     margin-top: -3%;
     margin-left: -3%;
@@ -542,7 +542,7 @@ a {
     font-size: 30px;
     font-family: 'Amatic SC';
     margin-left: calc(44% + 8px);
-    margin-top: 3%;
+    margin-top: -3%;
     /* text-decoration: underline ; */
     margin-right: calc(41% + 7px);
     position: absolute;
@@ -791,4 +791,66 @@ a {
     margin-left: calc(37% + 5px);
     position: absolute;
     margin-top: -13%;
+}
+
+.workhr{
+    width: 150px;
+    color: #fafafa;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 42%;
+    transform: rotate(90deg);
+    opacity: 50%;
+
+}
+.box4{
+    height: 30px;
+    width: 400px;
+    border: solid 2px #ffffff;
+    border-radius: 0px 0px 0px 150px ;
+    position: absolute;
+    margin-top: calc(9% + 7px);
+    margin-left: calc(46% + 8px);
+    border-color: transparent transparent #fff #fff ;
+    opacity: 50%;
+}
+
+
+.box44{
+    height: 30px;
+    width: 80px;
+    border: solid 2px #ffffff;
+    border-radius: 0px 150px 0px 0px ;
+    position: absolute;
+    margin-top: calc(11% + 2px);
+    margin-left: calc(70% + 10px);
+    border-color: #fff #fff transparent transparent ;
+    opacity: 50%;
+}
+
+.mywork{
+    font-size: 8vmin;
+    color: aliceblue;
+    margin-top:15%;
+    margin-left: calc(66% + 22px);
+    font-family: 'Amatic SC';
+    position: absolute;
+}
+.mwhr{
+    transform: rotate(90deg);
+    color:white;
+    width: 350px;
+    position :absolute;
+    margin-left: calc(35% + 12px);
+    margin-top: 30%;
+    opacity: 50%;
+}
+
+.workpics{
+    margin-top: 22%;
+    margin-left: 70%;
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    border-radius: 15px;
 }
