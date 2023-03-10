@@ -147,3 +147,10 @@ function s22(){
 function s32(){
     m112.classList.remove("s1b");
 }
+
+let workp1 = document.getElementById("n12");
+
+function change1(){
+    workp1.target.classList.add("workpics11")
+
+}

@@ -5,6 +5,8 @@
 }
 
 body {
+    margin: 0;
+    height: 100vh;
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('https://www.linkpicture.com/q/655338c996b7fc0b1c0a7e8df5c29c7d.jpg'), url("https://www.linkpicture.com/q/100-50-15.png");
     background-position: top;
     background-size: cover;
@@ -19,7 +21,8 @@ body {
 
     overflow-x: hidden;
 }
-.fake{
+
+.fake {
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url('https://www.linkpicture.com/q/655338c996b7fc0b1c0a7e8df5c29c7d.jpg'), url("https://www.linkpicture.com/q/100-50-15.png");
     background-position: top;
     z-index: 1;
@@ -29,14 +32,15 @@ body {
     margin-left: -3%;
     position: absolute;
     background-size: cover;
-    
-    
-}
-.nav{
-    z-index:2;
+
+
 }
 
-body{
+.nav {
+    z-index: 2;
+}
+
+body {
     background-color: #270015;
     background-image: url("https://www.linkpicture.com/q/100-50-15.png");
     background-size: auto;
@@ -48,7 +52,7 @@ body{
     font-family: 'Amatic SC';
     color: #270015;
     text-decoration: none;
-    z-index:2;
+    z-index: 2;
     margin-top: 3%;
     margin-left: 5%;
     position: absolute;
@@ -65,7 +69,7 @@ body{
     text-decoration: none;
     position: absolute;
     margin-left: 10%;
-    z-index:2;
+    z-index: 2;
 }
 
 .home {
@@ -104,20 +108,20 @@ a {
 .aboutmein1 {
     width: 20px;
     margin-right: 5%;
-    z-index:2;
+    z-index: 2;
 }
 
 .aboutmein2 {
     width: 30px;
     margin-right: 5%;
-    z-index:2;
+    z-index: 2;
 
 }
 
 .aboutmein3 {
     width: 45px;
     margin-right: 5%;
-    z-index:2;
+    z-index: 2;
 
 }
 
@@ -128,7 +132,7 @@ a {
     right: 5%;
     width: 60px;
     cursor: pointer;
-    z-index:2;
+    z-index: 2;
 }
 
 #toggle {
@@ -147,7 +151,7 @@ a {
     height: 100vh;
     /* overflow-y: hidden; */
     background-image: url("https://www.linkpicture.com/q/p118.png");
-    z-index:2;
+    z-index: 2;
 }
 
 .transition1 {
@@ -174,7 +178,7 @@ a {
     animation-name: rotate1;
     animation-delay: 0ms;
     animation-duration: 500ms;
-    z-index:2;
+    z-index: 2;
 
 }
 
@@ -364,7 +368,7 @@ a {
     margin-top: 21%;
     margin-left: 24%;
     position: absolute;
-    z-index:2;
+    z-index: 2;
     color: #fafafa;
 }
 
@@ -374,7 +378,7 @@ a {
     margin-top: 20%;
     margin-left: 36%;
     position: absolute;
-    z-index:2;
+    z-index: 2;
     color: aliceblue;
 }
 
@@ -383,7 +387,7 @@ a {
     font-size: 7vmin;
     margin-top: 28%;
     margin-left: 33%;
-    z-index:2;
+    z-index: 2;
     position: absolute;
     color: aliceblue;
 }
@@ -451,7 +455,7 @@ a {
     position: absolute;
     margin-left: 73%;
     margin-top: 45%;
-    z-index:2;
+    z-index: 2;
 }
 
 .fa-brands:hover {
@@ -516,7 +520,7 @@ a {
     margin-top: 12%;
     margin-left: 12%;
     font-family: 'Amatic SC';
-    
+
 }
 
 .hr11 {
@@ -635,7 +639,7 @@ a {
     margin-top: calc(52%);
     margin-left: calc(40% + 6px);
     z-index: 3;
-    border :solid 1px #ffffff;
+    border: solid 1px #ffffff;
     opacity: 50%;
 
 }
@@ -705,23 +709,23 @@ a {
     opacity: 50%;
 }
 
-.box1{
+.box1 {
     height: 30px;
     width: 140px;
     border: solid 2px #ffffff;
-    border-radius: 0px 0px 0px 150px ;
+    border-radius: 0px 0px 0px 150px;
     border-color: transparent transparent #fff #fff;
     margin-top: calc(3% + 16px);
     margin-left: calc(46% + 2px);
-    position:  absolute;
+    position: absolute;
     opacity: 50%;
 }
 
-.box11{
+.box11 {
     height: 30px;
     width: 50px;
     border: solid 2px #ffffff;
-    border-radius: 0px 150px 0px 0px ;
+    border-radius: 0px 150px 0px 0px;
     position: absolute;
     margin-top: calc(4% + 28px);
     margin-left: calc(53% + 25px);
@@ -729,23 +733,23 @@ a {
     border-color: #fafafa #fff transparent transparent;
 }
 
-.box2{
+.box2 {
     height: 30px;
     width: 50px;
     border: solid 2px #ffffff;
-    border-radius: 0px 0px 0px 150px ;
+    border-radius: 0px 0px 0px 150px;
     position: absolute;
     margin-top: calc(0% + 19px);
     margin-left: calc(37% + 5px);
-    border-color:transparent transparent #fff #fff;
+    border-color: transparent transparent #fff #fff;
     opacity: 50%;
 }
 
-.box22{
+.box22 {
     height: 30px;
     width: 100px;
     border: solid 2px #ffffff;
-    border-radius: 0px 150px 0px 0px ;
+    border-radius: 0px 150px 0px 0px;
     position: absolute;
     margin-top: calc(0% + 47px);
     margin-left: calc(40% + 4px);
@@ -753,37 +757,39 @@ a {
     opacity: 50%;
 }
 
-.qhr{
+.qhr {
     opacity: 50%;
 }
 
-.qhr2{
+.qhr2 {
     opacity: 50%;
 }
 
-.box3{
+.box3 {
     height: 30px;
     width: 400px;
     border: solid 2px #ffffff;
-    border-radius: 0px 0px 150px 0px ;
+    border-radius: 0px 0px 150px 0px;
     position: absolute;
     margin-top: calc(5% + 7px);
     margin-left: calc(22% + 0px);
     border-color: transparent #fff #fff transparent;
     opacity: 50%;
 }
-.box33{
+
+.box33 {
     height: 40px;
     width: 80px;
     border: solid 2px #ffffff;
-    border-radius: 150px 0px 0px 0px ;
+    border-radius: 150px 0px 0px 0px;
     position: absolute;
     margin-top: calc(7% + 2px);
     margin-left: calc(17% + 5px);
-    border-color:  #fff  transparent transparent #fff;
+    border-color: #fff transparent transparent #fff;
     opacity: 50%;
 }
-.rowmid{
+
+.rowmid {
     transform: rotate(90deg);
     color: white;
     opacity: 50%;
@@ -793,7 +799,7 @@ a {
     margin-top: -13%;
 }
 
-.workhr{
+.workhr {
     width: 150px;
     color: #fafafa;
     position: absolute;
@@ -803,50 +809,52 @@ a {
     opacity: 50%;
 
 }
-.box4{
+
+.box4 {
     height: 30px;
     width: 400px;
     border: solid 2px #ffffff;
-    border-radius: 0px 0px 0px 150px ;
+    border-radius: 0px 0px 0px 150px;
     position: absolute;
     margin-top: calc(9% + 7px);
     margin-left: calc(46% + 8px);
-    border-color: transparent transparent #fff #fff ;
+    border-color: transparent transparent #fff #fff;
     opacity: 50%;
 }
 
 
-.box44{
+.box44 {
     height: 30px;
     width: 80px;
     border: solid 2px #ffffff;
-    border-radius: 0px 150px 0px 0px ;
+    border-radius: 0px 150px 0px 0px;
     position: absolute;
     margin-top: calc(11% + 2px);
     margin-left: calc(70% + 10px);
-    border-color: #fff #fff transparent transparent ;
+    border-color: #fff #fff transparent transparent;
     opacity: 50%;
 }
 
-.mywork{
+.mywork {
     font-size: 8vmin;
     color: aliceblue;
-    margin-top:15%;
+    margin-top: 15%;
     margin-left: calc(66% + 22px);
     font-family: 'Amatic SC';
     position: absolute;
 }
-.mwhr{
+
+.mwhr {
     transform: rotate(90deg);
-    color:white;
+    color: white;
     width: 350px;
-    position :absolute;
+    position: absolute;
     margin-left: calc(35% + 12px);
     margin-top: 30%;
     opacity: 50%;
 }
 
-.workpics1{
+.workpics1 {
     margin-top: 22%;
     margin-left: 70%;
     height: 300px;
@@ -854,33 +862,38 @@ a {
     position: absolute;
     border-radius: 15px;
     border: solid 2px #270015;
+    display: flex;
     z-index: 3;
-    
+    background-image: url("https://www.linkpicture.com/q/Portfolio112.png");
+}
+
+.workpics11 {
+    background-image: none;
+    background: #270015;
 }
 
 
-a:hover{
+a:hover {
     cursor: pointer;
 }
-.workpics2{
+
+.workpics2 {
     margin-top: 24%;
     margin-left: 67%;
     width: 150px;
     height: calc(1.5 * 150px);
-    
+
     position: absolute;
     border-radius: 15px;
     z-index: 2;
 }
 
-.workpics3{
+.workpics3 {
     margin-top: 24%;
     margin-left: 76%;
     width: 150px;
     height: calc(1.5 * 150px);
-    
     position: absolute;
     border-radius: 15px;
     z-index: 2;
 }
-
