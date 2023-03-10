@@ -846,11 +846,41 @@ a {
     opacity: 50%;
 }
 
-.workpics{
+.workpics1{
     margin-top: 22%;
     margin-left: 70%;
     height: 300px;
     width: 200px;
     position: absolute;
     border-radius: 15px;
+    border: solid 2px #270015;
+    z-index: 3;
+    
 }
+
+
+a:hover{
+    cursor: pointer;
+}
+.workpics2{
+    margin-top: 24%;
+    margin-left: 67%;
+    width: 150px;
+    height: calc(1.5 * 150px);
+    
+    position: absolute;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.workpics3{
+    margin-top: 24%;
+    margin-left: 76%;
+    width: 150px;
+    height: calc(1.5 * 150px);
+    
+    position: absolute;
+    border-radius: 15px;
+    z-index: 2;
+}
+
