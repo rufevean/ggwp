@@ -897,3 +897,50 @@ a:hover {
     border-radius: 15px;
     z-index: 2;
 }
+
+.cursor {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursora .5s infinite alternate;
+    z-index: 11;
+}
+
+@keyframes cursora {
+
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0.7);
+    }
+
+}
+
+.cursor::after {
+    content: "";
+    width: 60px;
+    height: 60px;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    top: -8px;
+    left: -8px;
+    position: absolute;
+    opacity: 30%;
+
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    cursor: none;
+}
+
+* {
+    cursor: none;
+}

@@ -120,39 +120,44 @@ toggle.addEventListener("input", (t) => {
     }
 });
 
+let m112 = document.getElementById("m123");
 
-let m112 = document.getElementById("m123")
-
-function m22(){
+function m22() {
     m112.classList.add("m1b");
 }
 
-function m32(){
+function m32() {
     m112.classList.remove("m1b");
 }
 
 //ury
-function d22(){
+function d22() {
     m112.classList.add("d1b");
 }
 
-function d32(){
+function d32() {
     m112.classList.remove("d1b");
 }
 
-function s22(){
+function s22() {
     m112.classList.add("s1b");
 }
 
-function s32(){
+function s32() {
     m112.classList.remove("s1b");
 }
 
-"use strict"
+("use strict");
 let workp1 = document.getElementById("n12");
 
-function change1(){
-    workp1.classList.add("workpics11")
-
+function change1() {
+    workp1.classList.add("workpics11");
 }
 
+const cursor = document.querySelector(".cursor");
+document.addEventListener("mousemove", (e) => {
+    cursor.setAttribute(
+        "style",
+        "top : " + (e.pageY - 915) + "px;left : " + e.pageX + "px"
+    );
+});
