@@ -897,7 +897,7 @@ a:hover {
     border-radius: 15px;
     z-index: 2;
 }
-
+/* 
 .cursor {
     width: 60px;
     height: 60px;
@@ -933,14 +933,9 @@ a:hover {
     position: absolute;
     opacity: 30%;
 
-}
+} */
 
 body {
     margin: 0;
     height: 100vh;
-    cursor: none;
-}
-
-* {
-    cursor: none;
 }

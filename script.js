@@ -148,7 +148,7 @@ function s32() {
 }
 
 ("use strict");
-let workp1 = document.getElementById("n12");
+let workp1 = document.getElementById("n13");
 
 function change1() {
     workp1.classList.add("workpics11");
